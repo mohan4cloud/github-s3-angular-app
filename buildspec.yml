@@ -6,7 +6,7 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - npm install
-      -npm install -g @angular/cli@12.2.4
+      - npm install -g @angular/cli@12.2.4
   build:
     commands:
       - echo "Building Angular Project...."
