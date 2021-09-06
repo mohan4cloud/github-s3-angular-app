@@ -3,7 +3,7 @@ env:
     variables:
         S3_BUCKET: "{{github-s3-angular-bucket}}"
         BUILD_FOLDER: "dist"
-phases"
+phases:
   install:
     runtime-version:
       nodejs: 14.17.6
