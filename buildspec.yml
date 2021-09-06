@@ -9,7 +9,7 @@ phases:
       - npm install -g @angular/cli@12.2.4
   build:
     commands:
-      - echo "Building Angular Project...."
+      - echo Build started
       - ng build
   post_build:
     commands:
